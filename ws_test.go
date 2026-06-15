@@ -234,7 +234,7 @@ func TestWSDataBeforeCloseFrame(t *testing.T) {
 
 	// Simulate what happens when a NATS server sends an -ERR message
 	// followed by a WebSocket close frame in the same TCP read.
-	// This is the case described in https://github.com/nats-io/nats.go/issues/2024:
+	// This is the case described in https://github.com/ms-iipt/nats.go/issues/2024:
 	// the server sends "-ERR 'Authorization Violation'\r\n" as a text frame,
 	// immediately followed by a WebSocket close frame. The data frame must
 	// be returned to the caller before the close frame's io.EOF.

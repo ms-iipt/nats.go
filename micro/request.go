@@ -19,7 +19,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nats-io/nats.go"
+	"github.com/ms-iipt/nats.go"
 )
 
 type (

@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/ms-iipt/nats.go"
 )
 
 // Drain can be very useful for graceful shutdown of subscribers.

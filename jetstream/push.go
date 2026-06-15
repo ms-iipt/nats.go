@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/ms-iipt/nats.go"
 	"github.com/nats-io/nuid"
 )
 

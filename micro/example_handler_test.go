@@ -17,8 +17,8 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/micro"
+	"github.com/ms-iipt/nats.go"
+	"github.com/ms-iipt/nats.go/micro"
 )
 
 type rectangle struct {

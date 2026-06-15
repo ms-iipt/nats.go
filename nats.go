@@ -44,7 +44,7 @@ import (
 	"github.com/nats-io/nkeys"
 	"github.com/nats-io/nuid"
 
-	"github.com/nats-io/nats.go/util"
+	"github.com/ms-iipt/nats.go/util"
 )
 
 // Default Constants

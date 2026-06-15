@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/jetstream"
-	"github.com/nats-io/nats.go/micro"
+	"github.com/ms-iipt/nats.go"
+	"github.com/ms-iipt/nats.go/jetstream"
+	"github.com/ms-iipt/nats.go/micro"
 )
 
 type objectStepConfig[T any] struct {

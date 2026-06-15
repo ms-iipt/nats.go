@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nats-io/nats.go"
+	"github.com/ms-iipt/nats.go"
 )
 
 //lint:file-ignore SA1019 Ignore deprecation warnings for EncodedConn

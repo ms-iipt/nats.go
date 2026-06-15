@@ -1,4 +1,4 @@
-module github.com/nats-io/nats.go
+module github.com/ms-iipt/nats.go
 
 go 1.25.0
 

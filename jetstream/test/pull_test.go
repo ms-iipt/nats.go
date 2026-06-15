@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/jetstream"
+	"github.com/ms-iipt/nats.go"
+	"github.com/ms-iipt/nats.go/jetstream"
 )
 
 func TestPullConsumerFetch(t *testing.T) {
